@@ -1,7 +1,25 @@
 [
   {
-    "name": "test",
-    "function": "test",
+    "name": "test_animal",
+    "function": "test_animal",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_bird",
+    "function": "test_bird",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_cow",
+    "function": "test_cow",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_fish",
+    "function": "test_fish",
     "timeout": 10,
     "points": 1
   }
