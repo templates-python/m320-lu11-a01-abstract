@@ -6,8 +6,8 @@ from fish import Fish
 
 def main():
     # Erzeuge ein "abstraktes" Tier. Wie soll sich das bewegen?
-    animal = Animal("was genau?")
-    animal.move()
+    #animal = Animal("was genau?")
+    #animal.move()
     # Erzeuge einen Vogel
     bird = Bird("Vogel", "Kudu")
     bird.move()
@@ -21,7 +21,7 @@ def main():
     # Eine kleine Demo was noch möglich ist.
     print("\n\nDemo zu Polymorphie")
     # Alle Objekt in eine Liste (Sammlung) stecken.
-    animals = [animal, bird, fish, cow]
+    animals = [bird, fish, cow]
     # animals enthält verschiedene Objekte, die aber alle die Fähigkeit move() haben.
     # Jedes Objekt der konkreten Tiere erbt von Animal, ist somit auch vom Typ Animal.
     # Nun können alle Objekte mit der Sicht - der Brille - "Animal" betrachtet werden.
