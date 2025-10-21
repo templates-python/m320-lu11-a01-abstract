@@ -8,4 +8,4 @@ class Fish(Animal):
         self.__name = name
 
     def move(self):
-        print(f'{self._species} mit Name {self.__name}  schwimmt')
+        print(f'{self._species} mit Name {self.__name} schwimmt')
